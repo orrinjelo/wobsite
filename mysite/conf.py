@@ -26,7 +26,7 @@ SITE_URL = "https://orrinjelo.github.io/"
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://orrinjelo.github.io/"
 BLOG_EMAIL = "orrin.jelo@gmail.com"
-BLOG_DESCRIPTION = "Web profile for Tyler Park."  # (translatable)
+BLOG_DESCRIPTION = "Hub for code and projects"  # (translatable)
 
 # Nikola is multilingual!
 #
@@ -134,8 +134,6 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/pages/gitlab", "GitLab"),
-        ("/pages/github", "GitHub"),
         ("/pages/docker", "Docker"),
         ("/archive.html", "Archive"),
         ("/categories/", "Tags"),
@@ -144,11 +142,11 @@ NAVIGATION_LINKS = {
 }
 
 # Name of the theme to use.
-THEME = "reveal"
+THEME = "bootstrap3"
 
 # Primary color of your theme. This will be used to customize your theme and
 # auto-generate related colors in POSTS_SECTION_COLORS. Must be a HEX value.
-THEME_COLOR = '#686BD4'
+THEME_COLOR = '#5670d4'
 
 # POSTS and PAGES contains (wildcard, destination, template) tuples.
 # (translatable)
@@ -981,7 +979,7 @@ RSS_COPYRIGHT_FORMATS = CONTENT_FOOTER_FORMATS
 # systems.  The following comment systems are supported by Nikola:
 #   disqus, facebook, googleplus, intensedebate, isso, livefyre, muut
 # You can leave this option blank to disable comments.
-COMMENT_SYSTEM = "isso"
+COMMENT_SYSTEM = "disqus"
 # And you also need to add your COMMENT_SYSTEM_ID which
 # depends on what comment system you use. The default is
 # "nikolademo" which is a test account for Disqus. More information
