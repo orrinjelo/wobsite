@@ -15,12 +15,19 @@ Fun
 - `OpenWest 2018`_
 - `Project Euler`_: First 10 problems (the rest are hosted privately on GitLab, but you can see my progress `here`_.)
 
-
 .. _Advent of Code 2018: https://github.com/orrinjelo/AdventOfCode2018
 .. _Synacor Challenge: https://github.com/orrinjelo/synacor_challenge
 .. _OpenWest 2018: https://github.com/orrinjelo/OpenWest2018
 .. _Project Euler: https://github.com/orrinjelo/projecteuler
 .. _here: https://projecteuler.net/progress=orrinjelo
+
+
+Home Assistant
+--------------
+I am currently piecing together my smart home using Home Assistant. See my `custom config`_.
+
+.. _custom config: https://github.com/orrinjelo/homeassistant-config
+
 
 
 Old School Projects
